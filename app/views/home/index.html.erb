@@ -1,0 +1,12 @@
+
+
+
+
+<h1>Home#index</h1>
+<p>Find me in app/views/home/index.html.erb</p>
+<% if user_signed_in?%>
+<a href="/sign_out">sign out</a> 
+<% else %>
+<a href="/sign_in">sign in</a> |
+<a href="/sign_up">sign up</a> 
+<% end %>
